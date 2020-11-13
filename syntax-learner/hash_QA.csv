@@ -1,0 +1,13 @@
+key,returns the key of an occurrence of a given value
+keys,returns a new array populated with keys from the hash
+has_key?,returns true if the given key is present in the hash
+has_value?,returns true if the given value is present for some key in hash
+invert,returns a new hash created by using original values as keys and keys as values
+flatten, returns a new array that is a one-dimensional flattening of the hash
+to_a,converts hash to a nested array of key value pairs
+to_s,resturns a string representation of a hash
+select,returns a new hash consisting of entries for which the block returns true
+reject,returns a new hash consisting of entries for which the block returns false
+each,calls block once for each key in hash passing the key value pair as parameters
+each_key,calls block once for each key in hash passing the key as parameter
+each_value,calls block once for each key in hash passing the values as parameter

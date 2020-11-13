@@ -1,0 +1,10 @@
+capitalize,returns a copy of str with the first character converted to uppercase and the remainder lowercase
+!,additional punctuation that modifies the underlying string rather than just returning
+upcase,returns a copy of str with all lowercase letters replace with uppercase counterparts
+downcase,returns a copy of str with all the uppercase letters replaced with their lowercase counterparts
+length,returns the character length of string
+include?,returns true if str contains the given string or character
+gsub,returns a copy of str with all occurrences of pattern substituted for the second argument
+slice,returns a substring containing a length of characters starting at a given index
+split,divides str into substrings based on a delimiter returning an array of these substrings
+chars,returns an array of characters in str
